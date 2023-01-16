@@ -11,8 +11,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
 <body>
-    <input class="button" type="button" value="Pesca una carta" onclick="pesca()">
-    <h3 id="cr">Crediti disponibili: </h3>
+    <header>
+        <div class="button-box">
+            <input class="button" type="button" value="Acquista una carta" onclick="acquista()">
+            <input class="button" type="button" value="Pesca una carta" onclick="pesca()">
+        </div>
+        <h3 id="cr">Crediti disponibili: </h3>
+        <h3 id="d">Carte nel deck: </h3>
+    </header>
     <div class="container">
     </div>
     <script src="/script/script.js"></script>
